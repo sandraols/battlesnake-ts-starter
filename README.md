@@ -11,8 +11,24 @@ git add .
 git commit -m "Initial commit"
 ```
 7. Create a heroku app `heroku create your-app-name`.
-8. Deploy your code `git push heroku master`.
-9. Verify by browsing to the url printed by the last command.
+8. Deploy your code `git push heroku master`. 
+
+    **NOTE** if you encounter an error messsge saying something the one below, you're trying to push a branch that doesn't exist.
+
+    ````
+    error: src refspec master does not match any  
+    error: failed to push some refs to 'https://git.heroku.com/most-super-snake.git'
+    ````
+    
+    Change to the branch your're current using, for instance `main`.
+    
+9. Verify by browsing to the URL printed by the last command. 
+    
+    ````
+    remote: -----> Launching...
+    remote:        Released v3
+    remote:        https://most-super-snake.herokuapp.com/ deployed to Heroku <---- THIS ONE 
+    ````
 10. Create a Battlesnake account.
 11. Add a Battlesnake and point it to your url in step 9.
 12. Create a game and add your snake.
