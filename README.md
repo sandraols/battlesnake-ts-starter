@@ -11,7 +11,7 @@ git add .
 git commit -m "Initial commit"
 ```
 7. Create a heroku app `heroku create your-app-name`.
-8. Deploy your code `git push heroku master`.
+8. Deploy your code `git push heroku master`. # can also be main instead of master
 9. Verify by browsing to the url printed by the last command.
 10. Create a Battlesnake account.
 11. Add a Battlesnake and point it to your url in step 9.
