@@ -1,7 +1,7 @@
 # Instructions
 
 1. Clone this repo.
-2. Install Heroku CLI and create a Heroku account.
+2. Install Heroku CLI (might requiere a XCode and MacOS update on Mac) and create a Heroku account.
 3. Run `heroku login`.
 4. Remove the git directory in this repo `rm -rf .git`.
 5. Initialize a fresh git repo `git init`.
