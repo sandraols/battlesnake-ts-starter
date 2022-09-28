@@ -12,7 +12,8 @@ export class BasicStrategy implements Strategy {
     const directionResults: Array<DirectionResult> = Object.values(Direction).map((direction: Direction) => {
       const nextCoord = coordInDirection(head, direction);
       const isOutofBounds = isOutside(nextCoord, gameState.board);
-      // Add other checks here 
+      // Check that you don't collide with any snake
+      // Add more checks if needed
       
       let outcome = Outcome.ALIVE
       if (isOutofBounds) {

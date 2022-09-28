@@ -1,17 +1,22 @@
-# Instructions
+# Preparations before K-weekend
+
+By following these instructions your server will be depolyed to Heroku. It is possible to host the server in any way you want as long as it is publicly accessible. The following instructions assumes that you want to use Heroku hosting.
+
+If you don't want to install or use the Heroku CLI it is also possible to integrate Heroku with a Github repo, but that is not covered by this guide (https://devcenter.heroku.com/articles/github-integration).
 
 1. Clone this repo.
 2. Install Heroku CLI (might requiere a XCode and MacOS update on Mac) and create a Heroku account.
+    https://devcenter.heroku.com/articles/heroku-cli
 3. Run `heroku login`.
 4. Remove the git directory in this repo `rm -rf .git`.
 5. Initialize a fresh git repo `git init`.
 6. Commit all files 
-```
-git add .
-git commit -m "Initial commit"
-```
+    ```
+    git add .
+    git commit -m "Initial commit"
+    ```
 7. Create a heroku app `heroku create your-app-name`.
-8. Deploy your code `git push heroku master`. 
+8. Deploy your code `git push heroku main`. 
 
     **NOTE** if you encounter an error messsge saying something the one below, you're trying to push a branch that doesn't exist.
 
@@ -20,7 +25,7 @@ git commit -m "Initial commit"
     error: failed to push some refs to 'https://git.heroku.com/most-super-snake.git'
     ````
     
-    Change to the branch your're current using, for instance `main`.
+    Change to the branch your're current using, for instance `master`.
     
 9. Verify by browsing to the URL printed by the last command. 
     
@@ -36,7 +41,7 @@ git commit -m "Initial commit"
 
 
 
-## Play a Game Locally
+## Play a Game Locally (optional)
 
 Install dependencies using npm
 
