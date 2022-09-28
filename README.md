@@ -34,10 +34,13 @@ If you don't want to install or use the Heroku CLI it is also possible to integr
     remote:        Released v3
     remote:        https://most-super-snake.herokuapp.com/ deployed to Heroku <---- THIS ONE 
     ````
-10. Create a Battlesnake account.
-11. Add a Battlesnake and point it to your url in step 9.
-12. Create a game and add your snake.
-13. Run it to verify that it respond to the call from Battlesnake.
+10. Create a Battlesnake account at https://play.battlesnake.com/.
+11. Press "Build a Battlesnake" on the Battlesnake site.
+12. Choose "Build from scratch".
+13. Choose a name and set the url to your url in step 9.
+14. Check the "Allow anyone to add this Battlesnake to their game"-box
+15. Create a game and add your snake.
+16. Run it to verify that it respond to the call from Battlesnake.
 
 
 
