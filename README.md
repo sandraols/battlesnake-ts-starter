@@ -42,7 +42,12 @@ If you don't want to install or use the Heroku CLI it is also possible to integr
 15. Create a game and add your snake.
 16. Run it to verify that it respond to the call from Battlesnake.
 
+## Run tests
 
+Run jest test cases with:
+```
+npm run test
+```
 
 ## Play a Game Locally (optional)
 
