@@ -1,5 +1,21 @@
 # Preparations before K-weekend
 
+## Repl
+
+Replit is a free browser based hosting and IDE. You will edit your files directly in the browser with their built in IDE.
+
+1. Go to https://replit.com/ and create an account.
+2. Click "+ Create" to create a new Repl.
+3. Choose "Import from github".
+4. Paste "github.com/ola-gawell-dct/battlesnake-ts-starter" as GitHub URL.
+5. Choose Typescript from Language.
+6. Click "Import from GitHub".
+7. Click "Run" to build your project and launch the server. This will takes some time the first time since it needs to install all the npm dependencies. The next time will be much faster. 
+8. When you see `Running Battlesnake at http://0.0.0.0:8000...` in the log the server is up and running. A small browser window will show up.
+9. Copy the URL from the small browser window and use it in the next section. NOTE: It can somtimes take a while for the first request to the server to repond. The server might go into sleep mode after som inactivity so its good to call your url before the big finals.
+
+## Heroku
+
 By following these instructions your server will be depolyed to Heroku. It is possible to host the server in any way you want as long as it is publicly accessible. The following instructions assumes that you want to use Heroku hosting.
 
 If you don't want to install or use the Heroku CLI it is also possible to integrate Heroku with a Github repo, but that is not covered by this guide (https://devcenter.heroku.com/articles/github-integration).
@@ -34,13 +50,16 @@ If you don't want to install or use the Heroku CLI it is also possible to integr
     remote:        Released v3
     remote:        https://most-super-snake.herokuapp.com/ deployed to Heroku <---- THIS ONE 
     ````
-10. Create a Battlesnake account at https://play.battlesnake.com/.
-11. Press "Build a Battlesnake" on the Battlesnake site.
-12. Choose "Build from scratch".
-13. Choose a name and set the url to your url in step 9.
-14. Check the "Allow anyone to add this Battlesnake to their game"-box
-15. Create a game and add your snake.
-16. Run it to verify that it respond to the call from Battlesnake.
+
+# Add your snake to Battlesnake
+
+1. Create a Battlesnake account at https://play.battlesnake.com/.
+2. Press "Build a Battlesnake" on the Battlesnake site.
+3. Choose "Build from scratch".
+4. Choose a name and set the url to your url from last section.
+5. Check the "Allow anyone to add this Battlesnake to their game"-box
+6. Create a game and add your snake.
+7. Run it to verify that it respond to the call from Battlesnake.
 
 ## Run tests
 
