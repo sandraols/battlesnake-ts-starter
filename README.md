@@ -14,6 +14,20 @@ Replit is a free browser based hosting and IDE. You will edit your files directl
 8. When you see `Running Battlesnake at http://0.0.0.0:8000...` in the log the server is up and running. A small browser window will show up.
 9. Copy the URL from the small browser window and use it in the next section. NOTE: It can somtimes take a while for the first request to the server to repond. The server might go into sleep mode after som inactivity so its good to call your url before the big finals.
 
+## Railway
+
+Railway is a free browser based hosting.
+
+1. Go to [https://github.com/ola-gawell-dct/battlesnake-ts-starter](https://github.com/ola-gawell-dct/battlesnake-ts-starter) and fork the repo.
+1. Go to [https://railway.app/](https://railway.app/) and click "login" an account to create a new account, user your Github account to log in.
+2. Click "+ New Project".
+3. Choose "Deploy from GitHub repo" and then “Configure GitHub App.
+4. Do the configuration and choose the forked repo.
+5. Click “+ Add variables” and enter a new variable “PORT” with value 6774 then press “+ Add”
+6. Go to “Settings” and press “Generate Domain”.
+7. When you see `Running Battlesnake at http://0.0.0.0:6774...` in the log the server is up and running.
+8. Copy the URL from settings and use it in the next section.
+
 ## Heroku
 
 By following these instructions your server will be depolyed to Heroku. It is possible to host the server in any way you want as long as it is publicly accessible. The following instructions assumes that you want to use Heroku hosting.
