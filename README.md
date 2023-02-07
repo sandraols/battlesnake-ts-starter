@@ -1,6 +1,12 @@
-# Preparations before K-weekend
+# Preparations before K-day
 
-## Repl
+We have gathered instructions for 3 different hosting solutions. There are som pros and cons with all so you have to pick the one suiting you. You can always host your Battlesnake in other places if you want.
+
+- Replit. Supereasy to get started but you have to use a browser based IDE.
+- Railway. You can develop on your machine and let Railway build your app when pushed to Github. But you need to give the Railway App access to your Github account.
+- Render. You can develop locally just like Railway but you don't need to give access to you repo. The build is however very slow. 
+
+## Replit
 
 Replit is a free browser based hosting and IDE. You will edit your files directly in the browser with their built in IDE.
 
@@ -28,7 +34,23 @@ Railway is a free browser based hosting.
 7. When you see `Running Battlesnake at http://0.0.0.0:6774...` in the log the server is up and running.
 8. Copy the URL from settings and use it in the next section.
 
+## Render
+
+1. Go to [https://github.com/ola-gawell-dct/battlesnake-ts-starter](https://github.com/ola-gawell-dct/battlesnake-ts-starter) and fork the repo and make it public. 
+2. Go to https://dashboard.render.com/register.
+3. Create an account in any way you like.
+4. Select New Web Serivces.
+5. Paste the url to you forked repo from step 1 in the Public Git Repository field or choose to connect to you Github account (not tested).
+6. Press Continue.
+7. Name your project to anything you like.
+8. Choose Node as Environment. 
+9. Press Create Web Service.
+10. The build will start immediately but will take some time. Every time you push changes to the git repository you need to press the Manual Deploy > Deploy latest commit.
+11. 
+
 ## Heroku
+
+NOTE: Heroku is not longer free to use. You can still use it but these instructions might not be complete anymore. 
 
 By following these instructions your server will be depolyed to Heroku. It is possible to host the server in any way you want as long as it is publicly accessible. The following instructions assumes that you want to use Heroku hosting.
 
