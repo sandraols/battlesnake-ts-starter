@@ -1,6 +1,6 @@
 # Preparations before K-day
 
-We have gathered instructions for 3 different hosting solutions. There are som pros and cons with all so you have to pick the one suiting you. You can always host your Battlesnake in other places if you want.
+We have gathered instructions for 4 different hosting solutions. There are som pros and cons with all so you have to pick the one suiting you. You can always host your Battlesnake in other places if you want.
 
 - Replit. Supereasy to get started but you have to use a browser based IDE.
 - Railway. You can develop on your machine and let Railway build your app when pushed to Github. But you need to give the Railway App access to your Github account.
