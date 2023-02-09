@@ -29,10 +29,13 @@ Railway is a free browser based hosting.
 2. Click "+ New Project".
 3. Choose "Deploy from GitHub repo" and then “Configure GitHub App.
 4. Do the configuration and choose the forked repo.
-5. Click “+ Add variables” and enter a new variable “PORT” with value 6774 then press “+ Add”
-6. Go to “Settings” and press “Generate Domain”.
-7. When you see `Running Battlesnake at http://0.0.0.0:6774...` in the log the server is up and running.
-8. Copy the URL from settings and use it in the next section.
+5. Click “+ Add variables” and enter a new variable “PORT” with value 6774 then press “+ Add” (Or whatever port is in the logs under the "Deployments tab)
+6. When you see `Running Battlesnake at http://0.0.0.0:6774...` in the log the server is up and running.
+7. Go to “Settings” and press “Generate Domain”.
+8. Copy the URL from "Settings" under "Domain" and use it in the Battlesnake instructions section. (You might have to re-deploy after adding variable or generating domain if you can't ping the web server later from the Battlesnake website)
+
+Notes
+* Servers seems to be located in US-west, relevant when choosing engine region in the Battlesnake instructions section.
 
 ## Render
 
@@ -90,10 +93,10 @@ If you don't want to install or use the Heroku CLI it is also possible to integr
 # Add your snake to Battlesnake
 
 1. Create a Battlesnake account at https://play.battlesnake.com/.
-2. Press "Build a Battlesnake" on the Battlesnake site.
-3. Choose "Build from scratch".
-4. Choose a name and set the url to your url from last section.
-5. Check the "Allow anyone to add this Battlesnake to their game"-box
+2. Press "Create Battlesnake" on the Battlesnake site under "Battlesnakes".
+3. Choose a name and set the url to your url from last section.
+4. Choose Public battlesnake.
+5. Save
 6. Create a game and add your snake.
 7. Run it to verify that it respond to the call from Battlesnake.
 
