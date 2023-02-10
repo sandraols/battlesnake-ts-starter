@@ -25,10 +25,10 @@ export class BasicStrategy implements Strategy {
       // Check that you don't collide with any snake
       // Add more checks if needed
       let otherData = 0;
-      otherData += reachableCells(gameState.board, nextCoord);
       if (fooood) {
         otherData -= distance(nextCoord, fooood);
       }
+      otherData += reachableCells(gameState.board, nextCoord);
 
       let outcome = Outcome.ALIVE;
       if (isOutofBounds || isSelf) {
