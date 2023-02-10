@@ -1,6 +1,7 @@
 import {
   closestFood,
   coordInDirection,
+  distance,
   isOutside,
   isSnakePart,
 } from '../functions/BoardFunctions';
@@ -25,6 +26,9 @@ export class BasicStrategy implements Strategy {
       // Add more checks if needed
       let otherData = 0;
       otherData += reachableCells(gameState.board, nextCoord);
+      if (fooood) {
+        otherData -= distance(nextCoord, fooood);
+      }
 
       let outcome = Outcome.ALIVE;
       if (isOutofBounds || isSelf) {
