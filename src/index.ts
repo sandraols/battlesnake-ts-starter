@@ -20,25 +20,25 @@ const allroundStrategy = new BasicStrategy();
 // and controls your Battlesnake's appearance
 // TIP: If you open your Battlesnake URL in a browser you should see this data
 function info(): InfoResponse {
-  console.log("INFO");
+  console.log('INFO');
 
   return {
-    apiversion: "1",
-    author: "",       // TODO: Your Battlesnake Username
-    color: "#888888", // TODO: Choose color
-    head: "default",  // TODO: Choose head
-    tail: "default",  // TODO: Choose tail
+    apiversion: '1',
+    author: '', // TODO: Your Battlesnake Username
+    color: '#49FF00', // TODO: Choose color
+    head: 'replit-mark', // TODO: Choose head
+    tail: 'replit-notmark', // TODO: Choose tail
   };
 }
 
 // start is called when your Battlesnake begins a game
 function start(gameState: GameState): void {
-  console.log("GAME START");
+  console.log('GAME START');
 }
 
 // end is called when your Battlesnake finishes a game
 function end(gameState: GameState): void {
-  console.log("GAME OVER\n");
+  console.log('GAME OVER\n');
 }
 
 // move is called on every turn and returns your next move
@@ -52,5 +52,5 @@ runServer({
   info: info,
   start: start,
   move: move,
-  end: end
+  end: end,
 });
