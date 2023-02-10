@@ -24,8 +24,8 @@ function info(): InfoResponse {
 
   return {
     apiversion: '1',
-    author: '', // TODO: Your Battlesnake Username
-    color: '#49FF00', // TODO: Choose color
+    author: 'sandraols', // TODO: Your Battlesnake Username
+    color: '#66ff33', // TODO: Choose color
     head: 'replit-mark', // TODO: Choose head
     tail: 'replit-notmark', // TODO: Choose tail
   };

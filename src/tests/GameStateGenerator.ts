@@ -100,7 +100,7 @@ function addSnake(
       latency: '100ms',
       shout: 'hej',
       customizations: {
-        color: '#49FF00',
+        color: '#66ff33',
         head: 'replit-mark',
         tail: 'replit-notmark',
       },
